@@ -1,0 +1,13 @@
+a={"Arush":"Sachdeva",
+ "Anant":"Aunty",
+ 3:"archit",
+ "deepanshu":"Water",
+ "Duke":"goon"
+ }
+b={}
+p=[]
+for i in a:
+ p.append(i)
+for j in p[::-1]:
+ b[j]=a[j]
+print(b)
